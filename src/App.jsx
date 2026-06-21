@@ -7,6 +7,7 @@ import Dashboard from "./pages/Dashboard/Dashboard";
 import RoomDetails from "./pages/RoomDetails/RoomDetails";
 import BookingSuccess from "./pages/BookingSuccess/BookingSuccess";
 import Contact from "./pages/Contact/Contact";
+
 function App() {
   return (
     <Routes>
