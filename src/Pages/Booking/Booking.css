@@ -1,0 +1,162 @@
+.booking-page{
+    width:90%;
+    margin:40px auto;
+}
+
+.booking-page h1{
+    text-align:center;
+    color:#1f2937;
+    margin-bottom:40px;
+    font-size:40px;
+}
+
+/* Booking Grid */
+
+.booking-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    margin-bottom:40px;
+}
+
+/* Empty Booking */
+
+.empty-booking{
+
+    max-width:650px;
+
+    margin:60px auto;
+
+    background:white;
+
+    padding:50px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+    transition:.3s;
+}
+
+.empty-booking:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.empty-icon{
+
+    font-size:70px;
+
+    margin-bottom:20px;
+}
+
+.empty-booking h2{
+
+    color:#1f2937;
+
+    margin-bottom:20px;
+}
+
+.empty-booking p{
+
+    color:#666;
+
+    line-height:1.8;
+
+    margin-bottom:30px;
+
+    font-size:17px;
+}
+
+.empty-booking button{
+
+    padding:15px 40px;
+
+    border:none;
+
+    background:#1f2937;
+
+    color:white;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    transition:.3s;
+}
+
+.empty-booking button:hover{
+
+    background:#f4b400;
+
+    color:black;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.booking-page h1{
+
+font-size:32px;
+
+}
+
+.empty-booking{
+
+padding:30px;
+
+}
+
+.empty-booking h2{
+
+font-size:28px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.booking-page{
+
+width:95%;
+
+}
+
+.booking-page h1{
+
+font-size:26px;
+
+}
+
+.empty-booking{
+
+padding:25px;
+
+}
+
+.empty-icon{
+
+font-size:55px;
+
+}
+
+.empty-booking p{
+
+font-size:15px;
+
+}
+
+.empty-booking button{
+
+width:100%;
+
+}
+
+}

@@ -1,0 +1,25 @@
+.available{
+
+padding:6px 14px;
+
+background:green;
+
+color:white;
+
+border-radius:20px;
+
+font-size:14px;
+}
+
+.booked{
+
+padding:6px 14px;
+
+background:crimson;
+
+color:white;
+
+border-radius:20px;
+
+font-size:14px;
+}
